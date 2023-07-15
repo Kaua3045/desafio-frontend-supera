@@ -1,7 +1,7 @@
 import Account from "./Account";
 
 export default interface WireTransfer {
-  id: number;
+  wireTransferId: number;
   wireTransferDate: string;
   value: number;
   type: string;
