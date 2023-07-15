@@ -1,5 +1,5 @@
 export default interface WireTransfersRequest {
-  transactionOperatorName: string;
-  startDate: string;
-  endDate: string;
+  transactionOperatorName: string | null;
+  startDate: string | null;
+  endDate: string | null;
 }
